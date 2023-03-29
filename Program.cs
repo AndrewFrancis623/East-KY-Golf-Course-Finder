@@ -1,11 +1,16 @@
 ﻿using System;
-using SkillLevel;
+using System.Collections.Generic;
+
+
+
 
 namespace FinalProject 
 {
     // Main Class
     public class Program 
     {
+       
+
         // Start program
         static void Main(string[] args) 
         {
@@ -14,26 +19,60 @@ namespace FinalProject
             while(true) 
             {
                 //Get skill level
-                Console.WriteLine("***** East KY Golf Course Finder *****");
-                Console.WriteLine("Hello Golfer! \nIn order to find the right course for you we'll need a little info. \nPlease enter the number that corresponds to your skill level in the space below.");
-                Console.WriteLine("\t1 Begginer: Just started, I don't know what par is." + "\n\t2 Intermediate: I play frequently, I can get close to par on a good day." + "\n\t3 Professional: I play alot, I'm usally under par.");
+                Console.WriteLine("=============================================================================");
+                Console.WriteLine("\t\tEast KY Golf Course Finder");
+                Console.WriteLine("=============================================================================");
                 
-                string skilllevel = Console.ReadLine(); //Get input from user
+                Console.WriteLine("\nHello Golfer!");
+                Console.WriteLine("\nIn order to find the right course for you we'll need a little info. \nPlease enter the number that corresponds to your skill level in the space below.");
+              
+                Console.WriteLine("\n\t1 Begginer: Just started, I don't know what par is." + "\n\t2 Intermediate: I play frequently, I can get close to par on a good day." + "\n\t3 Professional: I play alot, I'm usally under par.");
+                
+
+                //Get input from user
+                string skilllevel = Console.ReadLine(); 
+
+
+                List<BegginerCourse> BegginerCourseList = new List<BegginerCourse>();
+                BegginerCourseList.Add(new BegginerCourse("Beaver Valley Golf Course", "Professional", 1234, "123 Lane", "www.website.com"));
+
+                List<IntermediateCourse> IntermediateCourseList = new List<IntermediateCourse>();
+                IntermediateCourseList.Add(new IntermediateCourse("StoneCrest", "Professional", 1234, "123 Lane", "www.website.com"));
+
+                List<ProfessionalCourse> ProfessionalCourseList = new List<ProfessionalCourse>();
+                IntermediateCourseList.Add(new IntermediateCourse("RavenRock", "Professional", 1234, "123 Lane", "www.website.com"));
 
 
                 if (skilllevel == "1")
                 {
-                    Console.WriteLine("correct");
+                    foreach (var golfcourse in BegginerCourseList)
+                    {
+                        Console.WriteLine("\nThe best Course for you would be:");
+                        Console.WriteLine("{0} \nSkill Level:{1} \nPhone:{2} \nAddress:{3} \nWebsite:{4}", golfcourse.Name, golfcourse.Skilllevel, golfcourse.Phonenumber, golfcourse.Address, golfcourse.Website);
+
+                    }
+                    
 
                 }
-                else if (skilllevel == "Intermediate")
+                else if (skilllevel == "2")
                 {
-                    Console.WriteLine("getting better");
+                    foreach (var golfcourse in IntermediateCourseList)
+                    {
+                        Console.WriteLine("\nThe best Course for you would be:");
+                        Console.WriteLine("{0} \nSkill Level:{1} \nPhone:{2} \nAddress:{3} \nWebsite:{4}", golfcourse.Name, golfcourse.Skilllevel, golfcourse.Phonenumber, golfcourse.Address, golfcourse.Website);
+
+                    }
+
 
                 }
-                else if (skilllevel == "Professional")
+                else if (skilllevel == "3")
                 {
-                    Console.WriteLine("Hello Tiger Woods");
+                    foreach (var golfcourse in ProfessionalCourseList)
+                    {
+                        Console.WriteLine("\nThe best Course for you would be:");
+                        Console.WriteLine("{0} \nSkill Level:{1} \nPhone:{2} \nAddress:{3} \nWebsite:{4}", golfcourse.Name, golfcourse.Skilllevel, golfcourse.Phonenumber, golfcourse.Address, golfcourse.Website);
+
+                    }
 
                 }
                 else 
@@ -45,7 +84,8 @@ namespace FinalProject
                 }
 
                 // Ask if ready to exit or restart
-                Console.WriteLine("Would you like to select another course? [Y or N]");
+                
+                Console.WriteLine("\nWould you like to find another course? [Y or N]");
 
                 // Get answer
                 string answer = Console.ReadLine().ToUpper();
@@ -62,12 +102,6 @@ namespace FinalProject
                 else { }
 
             }
-
-
-
-
-
-
 
 
 
