@@ -34,13 +34,13 @@ namespace FinalProject
 
 
                 List<BegginerCourse> BegginerCourseList = new List<BegginerCourse>();
-                BegginerCourseList.Add(new BegginerCourse("Beaver Valley Golf Course", "Professional", 1234, "123 Lane", "www.website.com"));
+                BegginerCourseList.Add(new BegginerCourse("Beaver Valley Golf Course", "Begginer", "(606) 874-2837", "49 Golf Course Rd, Allen, KY  41601-9433", "https://www.golflink.com/golf-courses/ky/allen/paul-hunt-thompson-golf-course"));
 
                 List<IntermediateCourse> IntermediateCourseList = new List<IntermediateCourse>();
-                IntermediateCourseList.Add(new IntermediateCourse("StoneCrest", "Professional", 1234, "123 Lane", "www.website.com"));
+                IntermediateCourseList.Add(new IntermediateCourse("Raven Rock Golf Course", "Intermediate", "(606) 219-4499", "586 Golf Course Lane, Jenkins, KY 41537", "https://www.ravenrockgolfcourse.com/"));
 
                 List<ProfessionalCourse> ProfessionalCourseList = new List<ProfessionalCourse>();
-                IntermediateCourseList.Add(new IntermediateCourse("RavenRock", "Professional", 1234, "123 Lane", "www.website.com"));
+                IntermediateCourseList.Add(new IntermediateCourse("Stone Crest Golf Course", "Professional", "(606) 886-1006", "918 Clubhouse Dr, Prestonsburg, Kentucky", "https://www.stonecrestgolfcourse.com"));
 
 
                 if (skilllevel == "1")

@@ -7,11 +7,11 @@ namespace FinalProject
     {
         private string name;
         private string skilllevel;
-        private int phonenumber;
+        private string phonenumber;
         private string address;
         private string website;
 
-        public BegginerCourse(string name, string skilllevel, int phonenumber, string address, string website)
+        public BegginerCourse(string name, string skilllevel, string phonenumber, string address, string website)
         {
             this.name = name;
             this.skilllevel = skilllevel;
@@ -22,7 +22,7 @@ namespace FinalProject
 
         public string Name { get { return name; } }
         public string Skilllevel { get { return skilllevel; } }
-        public int Phonenumber { get { return phonenumber; } }
+        public string Phonenumber { get { return phonenumber; } }
         public string Address { get { return address; } }
         public string Website { get { return website; } }
 
