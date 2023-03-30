@@ -40,7 +40,7 @@ namespace FinalProject
                 IntermediateCourseList.Add(new IntermediateCourse("Raven Rock Golf Course", "Intermediate", "(606) 219-4499", "586 Golf Course Lane, Jenkins, KY 41537", "https://www.ravenrockgolfcourse.com/"));
 
                 List<ProfessionalCourse> ProfessionalCourseList = new List<ProfessionalCourse>();
-                IntermediateCourseList.Add(new IntermediateCourse("Stone Crest Golf Course", "Professional", "(606) 886-1006", "918 Clubhouse Dr, Prestonsburg, Kentucky", "https://www.stonecrestgolfcourse.com"));
+                ProfessionalCourseList.Add(new ProfessionalCourse("Stone Crest Golf Course", "Professional", "(606) 886-1006", "918 Clubhouse Dr, Prestonsburg, Kentucky", "https://www.stonecrestgolfcourse.com"));
 
 
                 if (skilllevel == "1")
