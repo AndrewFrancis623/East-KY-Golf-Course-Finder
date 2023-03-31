@@ -1,0 +1,15 @@
+C:\Users\afran\Desktop\repos\FinalProject\bin\Debug\net6.0\EastKYGolfCourseFinder.exe
+C:\Users\afran\Desktop\repos\FinalProject\bin\Debug\net6.0\EastKYGolfCourseFinder.deps.json
+C:\Users\afran\Desktop\repos\FinalProject\bin\Debug\net6.0\EastKYGolfCourseFinder.runtimeconfig.json
+C:\Users\afran\Desktop\repos\FinalProject\bin\Debug\net6.0\EastKYGolfCourseFinder.dll
+C:\Users\afran\Desktop\repos\FinalProject\bin\Debug\net6.0\EastKYGolfCourseFinder.pdb
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.csproj.AssemblyReference.cache
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.AssemblyInfoInputs.cache
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.AssemblyInfo.cs
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.csproj.CoreCompileInputs.cache
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.dll
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\refint\EastKYGolfCourseFinder.dll
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.pdb
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\EastKYGolfCourseFinder.genruntimeconfig.cache
+C:\Users\afran\Desktop\repos\FinalProject\obj\Debug\net6.0\ref\EastKYGolfCourseFinder.dll
