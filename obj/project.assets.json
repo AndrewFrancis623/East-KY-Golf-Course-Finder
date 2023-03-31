@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\afran\\Desktop\\repos\\FinalProject\\FinalProject.csproj",
-      "projectName": "FinalProject",
-      "projectPath": "C:\\Users\\afran\\Desktop\\repos\\FinalProject\\FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\afran\\Desktop\\repos\\FinalProject\\EastKYGolfCourseFinder.csproj",
+      "projectName": "EastKYGolfCourseFinder",
+      "projectPath": "C:\\Users\\afran\\Desktop\\repos\\FinalProject\\EastKYGolfCourseFinder.csproj",
       "packagesPath": "C:\\Users\\afran\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\afran\\Desktop\\repos\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
