@@ -16,5 +16,6 @@ public class BeginnerCourse : Course
 
     public string Numberofsandtraps = "2";
     public bool Golfcarts = true;
+    public string Clubrentals = "yes";
     
 }

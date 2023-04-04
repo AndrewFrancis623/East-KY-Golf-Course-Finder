@@ -21,5 +21,6 @@ namespace FinalProject
 
         public string Numberofsandtraps = "6";
         public bool Golfcarts = true;
+        public string Clubrentals = "yes";
     }
 }

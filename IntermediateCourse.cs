@@ -14,7 +14,9 @@ public class IntermediateCourse : Course
     }
 
     public string Numberofsandtraps = "4";
-    public bool Golfcarts = true;
+    public bool Golfcarts = true; 
+    public string Clubrentals = "Yes";
+
 
 }
     

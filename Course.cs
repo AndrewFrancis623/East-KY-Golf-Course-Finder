@@ -10,7 +10,7 @@ namespace FinalProject
         public void warning()
         {
             Console.ForegroundColor= ConsoleColor.Yellow;
-            Console.WriteLine("Watch out!");
+            Console.WriteLine("WATCH OUT!");
             Console.ResetColor();   
         }
        
